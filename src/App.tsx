@@ -3,7 +3,6 @@ import rebuildImg from "figma:asset/a8737163fac50fd326e828eca94bbdcf1d65e01a.png
 import refineImg from "figma:asset/60df0dc9d05a8f189da6809d8494c079ad5604e9.png";
 import radiateImg from "figma:asset/6b72bc95cba2ccf5c30677e2bc7aaf602d765724.png";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
-import { WhopCheckoutEmbed } from "@whop/checkout/react";
 
 /* ----------------------- DESIGN TOKENS ----------------------- */
 const tokens = {
@@ -624,28 +623,21 @@ footer a:hover{opacity:1}
   font-size: 14px;
   color: #333;
 }
-.cta {
-  margin-top: 20px;
-  background: #171717;
+.secure-access-btn {
+  display: inline-block;
+  margin: 32px auto;
+  padding: 16px 48px;
+  background: #8c7040;
   color: #f8f2eb;
-  border: none;
-  padding: 12px 32px;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
   border-radius: 6px;
-  font-size: 16px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
   cursor: pointer;
 }
-.micro-proof {
-  font-size: 13px;
-  margin-top: 16px;
-  font-style: italic;
-}
-.fallback {
-  font-size: 13px;
-  margin-top: 8px;
-}
-.fallback a {
-  color: #8c7040;
-  text-decoration: underline;
+.secure-access-btn:hover {
+  opacity: 0.85;
 }
 .toggle {
   background: none;
@@ -672,7 +664,16 @@ export function CheckoutPage() {
       <p className="subhead">
         Instant access to the 90-Day Elegant Lifestyle. After payment, you'll be redirected
         to your Welcome page with step-by-step instructions.
-      </p>
+      </p>   
+
+            <a
+        href="https://whop.com/checkout/plan_uA8gobbkfx1gE"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="secure-access-btn"
+      >
+        Secure Access →
+      </a>
 
       
       <p className="trust-line">

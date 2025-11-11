@@ -674,13 +674,7 @@ export function CheckoutPage() {
         to your Welcome page with step-by-step instructions.
       </p>
 
-      <WhopCheckoutEmbed
-        fallback={<>Loading checkout...</>}
-        planId="plan_JNpVughNh9qVj"
-        theme="light"
-        hidePrice={false}
-      />
-
+      
       <p className="trust-line">
         🔒 Encrypted payments with major cards, Apple Pay, and Google Pay. 3D Secure enabled.
       </p>
@@ -694,7 +688,7 @@ export function CheckoutPage() {
       <p className="fallback">
         Having trouble?{" "}
         <a
-          href="https://whop.com/checkout/plan_JNpVughNh9qVj"
+          href="https://https://whop.com/checkout/plan_uA8gobbkfx1gE"
           target="_blank"
         >
           Use the alternate checkout

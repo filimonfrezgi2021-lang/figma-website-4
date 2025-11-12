@@ -676,24 +676,12 @@ export function CheckoutPage() {
       </a>
 
       
-      <p className="trust-line">
+       <p className="trust-line">
         🔒 Encrypted payments with major cards, Apple Pay, and Google Pay. 3D Secure enabled.
       </p>
 
-      <button className="cta">Confirm access</button>
-
       <p className="micro-proof">
         "By week four I dressed on autopilot and spoke without second-guessing." — First name, city
-      </p>
-
-      <p className="fallback">
-        Having trouble?{" "}
-        <a
-          href="https://https://whop.com/checkout/plan_uA8gobbkfx1gE"
-          target="_blank"
-        >
-          Use the alternate checkout
-        </a>
       </p>
 
       <button
